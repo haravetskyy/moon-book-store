@@ -1,0 +1,51 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://img2.akspic.ru/image/61939-metropoliya-otrazhenie-voda-polnoch-vselennaya_garri_pottera-2048x1302.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: white;
+  text-align: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    font-size: 4.5rem;
+    font-style: normal;
+    font-family: "Grenze Gotisch", cursive;
+
+    margin-top: 1em;
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    outline: none;
+
+    i {
+      font-size: 4rem;
+
+      color: #fff;
+
+      transition: all 0.5s;
+
+      &:hover {
+        font-size: 5rem;
+      }
+    }
+  }
+}

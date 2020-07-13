@@ -1,0 +1,54 @@
+.footer {
+  font-family: "Cinzel", serif;
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://images4.alphacoders.com/155/155094.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: #ffffff;
+
+  padding: 2rem;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+  }
+
+  &__address-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__icon-container {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    justify-content: space-between;
+  }
+
+  &__link,
+  &__copyright-text {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  &__address-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__icon {
+    font-size: 3rem;
+  }
+}
