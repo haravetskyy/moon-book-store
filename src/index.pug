@@ -1,0 +1,61 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='style.css')
+    link(href='https://use.fontawesome.com/releases/v5.0.13/css/all.css', rel='stylesheet')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css')
+    link(rel='shortcut icon', href='https://image.flaticon.com/icons/png/512/180/180700.png', type='image/x-icon')
+    title Moon-Book Store
+  body
+    .content
+      nav.navbar.nav-animation
+        ul
+          li
+            a(href='#') Home
+          li
+            a(href='#') About us
+          li
+            a(href='#') Portfolio
+          li
+            a(href='#') Services
+          li
+            a(href='#') Contact Us
+      header#header.hero
+        .hero__inner
+          .hero__headings
+            h1.hero__heading Moon-Book Store
+            h2.hero__subtitle
+              | There You can buy some beautiful books in paper or electronic
+              | format
+          button.hero__button
+            a(href='#main')
+              i.fas.fa-angle-double-down
+      main#main.main
+      footer.footer
+        .footer__content
+          .footer__address-container
+            a.footer__link(href='mailto:rifih59117@mailsecv.com') rifih59117@mailsecv.com
+            a.footer__link(href='+90 (212) 243 23 04') +90 (212) 243 23 04
+            ul.footer__address-list
+              li.footer__address-li Bereketzade Mh. Haci Ali Sk.
+              li.footer__address-li BahtiyarApt. 3/4
+              li.footer__address-li Beyoglu (Galata) / iST
+            a.footer__link(href='https://www.google.com/maps/place/Bereketzade,+Hac%C4%B1+Ali+Sk.,+34421+Beyo%C4%9Flu%2F%C4%B0stanbul,+%D0%A2%D1%83%D1%80%D1%86%D0%B8%D1%8F/@41.0245313,28.9724685,17z/data=!3m1!4b1!4m5!3m4!1s0x14cab9e7c05deb33:0x2d00d0d74532a230!8m2!3d41.0245313!4d28.9746572')
+              i.fas.fa-map-marked-alt
+              | View on map
+            p.footer__copyright-text © Moon-Book Store
+          .footer__icon-container
+            a.footer__icon.footer__link(href='#')
+              i.fab.fa-twitter
+            a.footer__icon.footer__link(href='#')
+              i.fab.fa-instagram
+            a.footer__icon.footer__link(href='#')
+              i.fab.fa-facebook-f
+            a.footer__icon.footer__link(href='#')
+              i.fab.fa-telegram-plane
+      // Modules scripts
+      script(src='https://code.jquery.com/jquery-3.3.1.js')
+      script(src='common.blocks/nav/nav.js')
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js')

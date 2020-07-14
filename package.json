@@ -1,0 +1,22 @@
+{
+  "name": "moon-book-store",
+  "version": "1.0.0",
+  "scripts": {
+    "start:pug": "pug --watch ./src",
+    "start:sass": "sass --watch ./src/style.scss ./src/style.css",
+    "build": "sh build.sh",
+    "build:pug": "pug ./src -o ./public",
+    "build:sass": "sass ./src/style.scss ./public/style.css --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yngharavetskyy/moon-book-store.git"
+  },
+  "keywords": [],
+  "author": "Yura Haravetskyy",
+  "license": "ISC",
+  "homepage": "https://github.com/yngharavetskyy/moon-book-store#readme",
+  "dependencies": {
+    "pug": "3.0.0"
+  }
+}
